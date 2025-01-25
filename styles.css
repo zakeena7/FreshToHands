@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-image: url('https://www.niti.gov.in/sites/default/files/styles/wide/public/2023-02/Strengthening%20the%20Indian%20Agriculture%20ecosystem%202.jpg?itok=vsjiVSVo'); /* Replace with your image URL */
+  background-size: cover; 
+    color: #fff;
+    padding: 10rem 0;
+  }
+  
+  .navbar .logo {
+    font-family: 'Brush Script';
+    margin-top: -25000px;
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #264707
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar .nav-links li {
+    margin: 0 1rem;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #8a7746;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+  }
+  
+  .hero .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .cta-button:hover {
+    background: #555;
+  }
+  
+  /* Products Section */
+  .products-section {
+    padding: 2rem 0;
+    background: #f9f9f9;
+  }
+  
+  .products-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .product-card img {
+    width: 100%;
+    max-width: 150px;
+    margin: auto;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .product-card button {
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-card button:hover {
+    background: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
