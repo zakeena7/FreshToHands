@@ -52,7 +52,7 @@ This is a part of home page where we can see the different type of farm products
 ### Project Demo
 # Video
 https://www.loom.com/share/888e2af393a441b2ae5d4e264d13d756?sid=31cf58df-baf9-446c-8d06-8d46845f04ea
-This video shows in detail the working of the website FreshToHands.We can see a front page with the site name and how we can access information about the type of products, what this site is and why is made and also the contact details. On clicking Buy Now under a type of product it moves to the page where the products under that type which are available and their prices according to their quantities.we can add,adjust quantities or remove them and the page will show the number of products selected and the total cost calculated of the products in the Shopping Cart.
+This video shows in detail the working of the website FreshToHands.We can see a front page with the site name and how we can access information about the type of products, what this site is and why it is made and also the contact details. On clicking Buy Now under a type of product it moves to the page where the products under that type which are available and their prices according to their quantities.we can add,adjust quantities or remove them and the page will show the number of products selected and the total cost calculated of the products in the Shopping Cart.
 
 
 
