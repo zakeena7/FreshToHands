@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - FreshToHands</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Reset */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .product-price {
+      font-size: 1.2rem;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .product-card button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .product-card button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>FreshToHands</h1>
+  </header>
+
+  <!-- Products Section -->
+  <div class="container">
+    <h2>Seasonal Fruits</h2>
+    <div class="product-grid">
+      
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://ichef.bbci.co.uk/images/ic/1200x675/p06hk0h6.jpg" alt="Mango">
+        <h3>Mango</h3>
+        <p>:A tropical delight brimming with energy and antioxidants.</p>
+        <p class="product-price">Rs140 / kg</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2018/08/bananas-1354785_1920.jpg" alt="Banana">
+        <h3>Banana</h3>
+        <p> Nature’s Energy Bar: Packed with Potassium and Power!</p>
+        <p class="product-price">Rs37 / kg</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://www.health.com/thmb/ZUgFgKha74m2jsSeXCf2fSdj6Fs=/2121x0/filters:no_upscale():max_bytes(150000):strip_icc()/Guava-15d1050d22034909bfca038ef1f8aaa2.jpg" alt="Guava">
+        <h3>Guava</h3>
+        <p>Boost Your Immunity Naturally – Grab a Guava Today</p>
+        <p class="product-price">Rs90/ kg</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://images.everydayhealth.com/images/diet-nutrition/apples-101-about-1440x810.jpg" alt="Apples">
+        <h3>Apples</h3>
+        <p> Crisp, Sweet, and Packed with Antioxidants – That’s an Apple!</p>
+        <p class="product-price">Rs96 / approx 4pcs</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="https://plus.unsplash.com/premium_photo-1668076515507-c5bc223c99a4?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cG9tZWdyYW5hdGV8ZW58MHx8MHx8fDA%3D" alt="Pomegranate">
+        <h3>Pomegranate</h3>
+        <p>The Ruby of Fruits, Rich in Vitamin C and Goodness</p>
+        <p class="product-price">Rs250  /4 pcs</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="https://cdn.mos.cms.futurecdn.net/SxQpyZbdPoWZuXmxKiJ3uF-1200-80.jpg" alt="Watermelon">
+        <h3>Watermelon</h3>
+        <p>  Stay Cool, Stay Healthy – Watermelon for Hydration and Energy!</p>
+        <p class="product-price">Rs39 / 1Pc</p>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <img src="https://www.thespruceeats.com/thmb/l1_lV7wgpqRArWBwpG3jzHih_e8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-are-grapes-5193263-hero-01-80564d77b6534aa8bfc34f378556e513.jpg" alt="Grapes">
+        <h3>Grapes</h3>
+        <p> Snack Smart with Grapes – Nature’s Hydrating, Nutritious Treat!</p>
+        <p class="product-price">Rs45 /kg</p>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <img src="https://misen.com/cdn/shop/articles/brentdpayne_cut_papaya_on_a_cutting_board_on_the_countertop_o_dfc6ec0f-44ab-4711-89c0-9604f965b77e_3_1456x.png?v=1729043402" alt="Papaya">
+        <h3>Papaya</h3>
+        <p>Glow Naturally with Papaya’s Skin-Loving Nutrients!</p>
+        <p class="product-price">Rs38 / kg</p>
+        <button>Shop Now</button>
+      </div>
+
+
+      <!-- Product 9 -->
+      <div class="product-card">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2024/06/Pineapple-01-5562ee3.jpg" alt="Pineapple">
+        <h3>Pineapple</h4>
+        <p>Tropical fruit of this season!</p>
+        <p class="product-price">Rs25 / 1pc</p>
+        <button>Shop Now</button>
+      </div>"
+
+
+
+
+    </div>
+  </div>
+
+
+  <div id="cart" class="container">
+    <h2>Shopping Cart</h2>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Cart items will be dynamically added here -->
+      </tbody>
+    </table>
+    <p id="cart-total">Total: Rs0</p>
+  </div>
+
+  <script src="script.js"></script>
+
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshToHands. All rights reserved.</p>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
