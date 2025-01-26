@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - FreshToHands</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Reset */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .product-price {
+      font-size: 1.2rem;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .product-card button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .product-card button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>FreshToHands</h1>
+  </header>
+
+  <!-- Products Section -->
+  <div class="container">
+    <h2>Dairy Products</h2>
+    <div class="product-grid">
+      
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://www.godigit.com/content/dam/godigit/directportal/en/rustic-milk-in-a-can.jpg" alt="Cow Milk">
+        <h3>Cow Milk</h3>
+        <p>:Fresh Milk, Full of Nutrients for a Healthier You!</p>
+        <p class="product-price">Rs67 / L</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2020/12/HW/AA/RL/66725630/butter-1-jpg-500x500.jpg" alt="Butter">
+        <h3>Butter</h3>
+        <p> From Farm to Table – Butter as Fresh as It Gets.</p>
+        <p class="product-price">Rs60 / 100g</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://themagicsaucepan.com/wp-content/uploads/2018/10/Ghee-0345Blog.jpg" alt="Ghee">
+        <h3>Ghee</h3>
+        <p>Fuel Your Day with Ghee: Rich in Omega-3s and Antioxidants!</p>
+        <p class="product-price">Rs130 / 200ml</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://nirmaldairy.com/wp-content/uploads/2024/05/curd.png" alt="Curd">
+        <h3>Curd</h3>
+        <p> Cool, Creamy, and Naturally Fresh – The Perfect Curd for Every Meal!</p>
+        <p class="product-price">Rs36 / 400g</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthiest-cheese-1296x728-swiss.jpg?w=1155&h=1528" alt="Cheese">
+        <h3>Cheese</h3>
+        <p>Say Cheese to Freshness – Farm to Table Goodness</p>
+        <p class="product-price">Rs127 /200g</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="https://tastegreatfoodie.com/wp-content/uploads/2023/02/two-ingredient-cream-cheese.jpg" alt="Cream Cheese">
+        <h3>Cream Cheese</h3>
+        <p>  Silky, Smooth, and Spreadable – Cream Cheese at Its Finest!</p>
+        <p class="product-price">Rs1289 / 500g</p>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <img src="https://nestle.fitterfly.in/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdWd1IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--366455b1650bba167985842ce76f4b67adde0549/20381_Spicy_Buttermilk.webp" alt="ButterMilk">
+        <h3>Butter Milk</h3>
+        <p> From Our Farms to Your Glass – Fresh Buttermilk Every Time.</p>
+        <p class="product-price">Rs70 /L</p>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2024/05/how-to-make-paneer-recipe.jpg" alt="Paneer">
+        <h3>Paneer</h3>
+        <p>Farm-Fresh and Delicious – Paneer Made with Love.</p>
+        <p class="product-price">Rs74 /200g</p>
+        <button>Shop Now</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div id="cart" class="container">
+    <h2>Shopping Cart</h2>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Cart items will be dynamically added here -->
+      </tbody>
+    </table>
+    <p id="cart-total">Total: Rs0</p>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshToHands. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
