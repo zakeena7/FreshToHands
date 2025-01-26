@@ -1,3 +1,4 @@
+
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -12,10 +13,17 @@ body {
     max-width: 1200px;
     margin: auto;
   }
+
+
+  header h1 {
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.12);
+  }
+  
   
   /* Navbar */
   .navbar {
-    background-image: url('https://www.niti.gov.in/sites/default/files/styles/wide/public/2023-02/Strengthening%20the%20Indian%20Agriculture%20ecosystem%202.jpg?itok=vsjiVSVo'); /* Replace with your image URL */
+background-image: url('https://img.freepik.com/premium-vector/vegetable-grocer-measuring-vegetables-illustration_1334819-6126.jpg?w=1800');
   background-size: cover; 
     color: #fff;
     padding: 10rem 0;
@@ -27,7 +35,7 @@ body {
     display: inline-block;
     font-size: 3.5rem;
     font-weight: bold;
-    color: #264707
+    color: #cfd59f
   }
   
   .navbar .nav-links {
@@ -35,10 +43,14 @@ body {
     padding: 0;
     display: flex;
     justify-content: flex-end;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fad49e
   }
   
   .navbar .nav-links li {
     margin: 0 1rem;
+    margin-top: -250px;
   }
   
   .navbar .nav-links a {
@@ -48,13 +60,21 @@ body {
   
   /* Hero Section */
   .hero {
-    background: #8a7746;
-    text-align: center;
+    background:  #859f67;
+     text-align: center;
     padding: 4rem 0;
   }
   
   .hero h2 {
     font-size: 2.5rem;
+  }
+
+
+  .hero p {
+    font-size: 1.5rem; /* Increase the font size */
+    line-height: 1.8; /* Adjust spacing between lines */
+    color: #5e3d05; /* Optional: Change the color if needed */
+    margin-top: 10px; /* Adjust spacing above the tagline */
   }
   
   .hero .cta-button {
@@ -66,6 +86,9 @@ body {
     text-decoration: none;
     border-radius: 5px;
   }
+
+
+
   
   .hero .cta-button:hover {
     background: #555;
@@ -74,7 +97,7 @@ body {
   /* Products Section */
   .products-section {
     padding: 2rem 0;
-    background: #f9f9f9;
+    background: #f3ecc5;
   }
   
   .products-section h2 {
@@ -109,7 +132,7 @@ body {
   
   .product-card button {
     padding: 0.5rem 1rem;
-    background: #333;
+    background: #2f2209;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -117,7 +140,48 @@ body {
   }
   
   .product-card button:hover {
-    background: #555;
+    background: #424141;
+  }
+
+
+  /* General Styles for Sections */
+section {
+    padding: 4rem 0;
+  }
+  
+  /* About Section */
+  .about-section {
+    background: #f3f3f3;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background: #859f67;
+    color: white;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
   }
   
   /* Footer */
@@ -126,4 +190,4 @@ body {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-  }
+  }       
