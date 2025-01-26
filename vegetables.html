@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - FreshToHands</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Reset */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      max-width: 200px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .product-price {
+      font-size: 1.2rem;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .product-card button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      font-size: 1rem;
+      border-radius: 5px;
+      margin-top: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .product-card button:hover {
+      background-color: #45a049;
+    }
+
+
+  
+  
+     
+
+
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>FreshToHands</h1>
+  </header>
+
+  <!-- Products Section -->
+  <div class="container">
+    <h2>Fresh Vegetables</h2>
+    <div class="product-grid">
+      
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Potato">
+        <h3>Potatoes</h3>
+        <p>Potatoes: Rich in Carbs, Vitamins, and Pure Comfort!.</p>
+        <p class="product-price">Rs28 / kg</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/30/2019/08/Onion-72ea178.jpg" alt="Onion">
+        <h3>Onions</h3>
+        <p>Packed with Flavor, Rich in Antioxidants, and Full of Health!.</p>
+        <p class="product-price">Rs37 / kg</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="https://blog.lexmed.com/images/librariesprovider80/blog-post-featured-images/shutterstock_1896755260.tmb-large.jpg?sfvrsn=52546e0a_1" alt="Tomato">
+        <h3>Tomatoes</h3>
+        <p>Juicy, red, and loaded with vitamins.</p>
+        <p class="product-price">Rs30 each</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="https://www.koppert.com/content/_processed_/f/3/csm_Cauliflower_cc18f1c3ed.jpg" alt="Cauliflower">
+        <h3>Cauliflower</h3>
+        <p>Your Daily Dose of Vitamin C, Straight from the Garden!</p>
+        <p class="product-price">Rs22 / kg</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 5 -->
+      <div class="product-card">
+        <img src="https://www.urbanrootslondon.ca/wp-content/uploads/2024/06/1_4zR2uzqtl1trezeQ6OrdXA.jpg" alt="Okra">
+        <h3>Okra</h3>
+        <p>The Green Marvel Packed with Fiber and Vitamins!</p>
+        <p class="product-price">Rs31 /250g</p>
+        <button>Shop Now</button>
+      </div>
+      
+      <!-- Product 6 -->
+      <div class="product-card">
+        <img src="https://www.greendna.in/cdn/shop/products/cabbage-and-weight-loss_650x.jpg?v=1595077122" alt="Cabbage">
+        <h3>Cabbage</h3>
+        <p> The Superfood That Cares for Your Gut!.</p>
+        <p class="product-price">Rs20 / 1Pc(Approx 450-750gm)</p>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Product 7 -->
+      <div class="product-card">
+        <img src="https://www.trustbasket.com/cdn/shop/articles/Spinach.webp?v=1686909241" alt="Spinach">
+        <h3>Spinach</h3>
+        <p> Packed with Iron, Powered for Life!</p>
+        <p class="product-price">Rs38 / 1 bunch</p>
+        <button>Shop Now</button>
+      </div>
+
+      <!-- Product 8 -->
+      <div class="product-card">
+        <img src="https://gardeningcentre.in/cdn/shop/files/bagg.jpg?v=1707585327&width=713" alt="Brinjal">
+        <h3>Brinjal</h3>
+        <p>Low in Calories, High in Fiber, Always in Flavor!</p>
+        <p class="product-price">Rs70 / kg</p>
+        <button>Shop Now</button>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <div id="cart" class="container">
+    <h2>Shopping Cart</h2>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Cart items will be dynamically added here -->
+      </tbody>
+    </table>
+    <p id="cart-total">Total: Rs0</p>
+  </div>
+
+  <script src="script.js"></script>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FreshToHands. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
