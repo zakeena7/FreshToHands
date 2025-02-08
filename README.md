@@ -33,10 +33,10 @@ For Software:
 This is the home page of our website where we can access information about the site,the type of products we sell and contact information.
 
 <img width="1128" alt="Screenshot 2025-01-26 125637" src="https://github.com/user-attachments/assets/f3445c3d-2a5a-46b2-9dc7-83da139a68ac" />
-Shopping cart lets users select, view, and manage items they want to buy. Users can add items, adjust quantities, or remove them. It displays the selected products, their prices, and calculates the total cost. 
+Shopping cart lets users select, view, and manage items that they want to buy. Users can add items, adjust quantities, or remove them. It displays the selected products, their prices, and calculates the total cost. 
 
 <img width="1128" alt="Screenshot 2025-01-26 125513" src="https://github.com/user-attachments/assets/df228169-73f0-48e9-948c-67bb235c72fb" />
-This is a part of home page where we can see the different type of farm products we provide and the decription on why this website is created.
+This is a part of home page where we can see the different types of farm products we provide and the decription on why this website is created.
 
 
 
