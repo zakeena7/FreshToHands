@@ -28,7 +28,7 @@ For Software:
 - HTML,JavaScript,CSS
 
 
-# Screenshots (Add at least 3)
+# Screenshots
 <img width="1128" alt="Screenshot 2025-01-26 125806" src="https://github.com/user-attachments/assets/5e2ae223-5aee-4145-be12-e25161f65563" />
 This is the home page of our website where we can access information about the site,the type of products we sell and contact information.
 
